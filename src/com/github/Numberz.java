@@ -4,7 +4,7 @@ public class Numberz {
 
 	public static void main(String[] args) {
 		
-		System.out.println(Examples.fi(1));
+		System.out.println(Examples.fr(10));
 		
 
 	}
