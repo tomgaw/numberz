@@ -3,16 +3,22 @@ package com.github;
 public class Examples {
 
 	// fibonacci iteration
-	public static int fi(int i){
-		return ++i;
+	public static int fi(int n) {
+		int p1 = 0, p2 = 1;
+		for (int i = 0; i < n; i++) {
+			int sp1 = p1;
+			p1 = p2;
+			p2 = sp1 + p2;
+		}
+		return p1;
 	}
 
 	// fibonacci recursion
-	public static int fr(int i){
-		if (i<2)
-			return i;
-		else 
-		return fr(i-1)+fr(i-2);
+	public static int fr(int n) {
+		if (n < 2)
+			return n;
+		else
+			return fr(n - 1) + fr(n - 2);
 	}
 
 }
