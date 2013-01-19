@@ -2,7 +2,7 @@ package com.github;
 
 public class Examples {
 
-	// fibonacci iteration
+	// example of fibonacci iteration
 	public static int fi(int n) {
 		int p1 = 0, p2 = 1;
 		for (int i = 0; i < n; i++) {
@@ -13,7 +13,7 @@ public class Examples {
 		return p1;
 	}
 
-	// fibonacci recursion
+	// example of fibonacci recursion
 	public static int fr(int n) {
 		if (n < 2)
 			return n;
