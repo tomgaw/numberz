@@ -1,5 +1,7 @@
 package com.github;
-//comments
+
+// comments
+
 public class Numberz {
 
 	public static void main(String[] args) {
